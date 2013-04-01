@@ -1,7 +1,7 @@
 Hash
 ====
 
-A puzzle game where the user must turn all squares the same colour.
+A memory game based on hashing algorithms.
 
 Requirments
 ===========

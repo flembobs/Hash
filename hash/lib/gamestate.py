@@ -54,7 +54,7 @@ MIN_DELAY = 180
 #DATA CONSTANTS
 DATA_COLORS = ((255,0,0),(255,0,255),(255,255,0),
                (0,255,255),(0,0,255),(0,255,0))               
-INITIAL_MIN_DATA_IN_BOXES = 5
+INITIAL_MIN_DATA_IN_BOXES = 8
 
 #ERROR MSG CONSTANTS
 ERROR_RECT = pygame.Rect((30,90),(580,300))
@@ -578,7 +578,17 @@ class GameState(State,SystemEventListener,GUIEventListener,GameEventListener):
       
       #if remove op - select existing data
       if opcode is REMOVE:
-         data = random.choice(all_data)
+      
+         while True:
+         
+            data = random.choice(all_data)
+            
+            #check that data is not already in instruction queue
+            for instruction in self.instruction_queue.queue:
+               if data == instruction.data:
+                  continue
+            break
+            
        
       instruction = Instruction(opcode,data)  
       GameEventManager.post(InstructionAdded(instruction))
