@@ -4,7 +4,7 @@
 # Definitions of all system events monitored by the game engine's main
 # event manager.
 ##############################################################################
-# 06/12 - Flembobs
+# 06/12 - GoshDarnGames
 ##############################################################################
 
 from events import *

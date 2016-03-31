@@ -7,7 +7,7 @@
 #
 # The EventManager class provides static methods for notifying listeners.
 ##############################################################################
-# 03/13 - Flembobs
+# 03/13 - GoshDarnGames
 ##############################################################################
 
 from weakref import WeakKeyDictionary

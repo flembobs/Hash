@@ -21,9 +21,9 @@ from modulefinder import Module
 ##############################################################################
 
 VERSION = '0.1'
-AUTHOR_NAME = 'Flembobs'
-AUTHOR_EMAIL = 'fl3mbobs@gmail.com'
-AUTHOR_URL = "https://sites.google.com/site/agermflying/"
+AUTHOR_NAME = 'GoshDarnGames'
+AUTHOR_EMAIL = ''
+AUTHOR_URL = "http://www.goshdarngames.com"
 PRODUCT_NAME = "Hash"
 SCRIPT_MAIN = 'hash.py'
 VERSIONSTRING = PRODUCT_NAME + " ALPHA " + VERSION

@@ -4,7 +4,7 @@
 # This state is used to check if the score achieved is a new high score and
 # prompt the user for their name if so.
 ##############################################################################
-# 03/13 - Flembobs
+# 03/13 - GoshDarnGames
 ##############################################################################
 
 import os

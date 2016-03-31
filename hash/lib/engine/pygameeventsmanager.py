@@ -4,7 +4,7 @@
 # Checks pygame for events on each tick and posts corresponding system
 # events.
 ##############################################################################
-# 06/12 - Flembobs
+# 06/12 - GoshDarnGames
 ##############################################################################
 
 from systemevents import *

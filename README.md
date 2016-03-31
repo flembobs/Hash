@@ -36,4 +36,4 @@ Home Page
 
 This game and others by the author can be found at:
 
-      https://sites.google.com/site/agermflying/
+      http://www.goshdarngames.com

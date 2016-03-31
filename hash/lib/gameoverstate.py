@@ -4,7 +4,7 @@
 # This state is used to display the score achieved with the old high score
 # and allow the user to start a new game.
 ##############################################################################
-# 03/13 Flembobs
+# 03/13 GoshDarnGames
 ##############################################################################
 
 import pygame
